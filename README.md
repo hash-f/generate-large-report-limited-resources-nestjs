@@ -25,8 +25,7 @@ npm i
 docker-compose up --build -d
 
 # 3. Hit the naive endpoint and watch it crash:
-curl -o /dev/null -w "
-" http://localhost:3000/reports/csv?mode=naive
+curl -o /dev/null -w http://localhost:3000/reports/csv?mode=naive
 
 # 4. Try the streaming endpoint (should succeed):
 curl -o /tmp/report.csv http://localhost:3000/reports/csv?mode=stream
