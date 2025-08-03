@@ -11,8 +11,7 @@ code/
     ├── Dockerfile          # Build container image
     ├── docker-compose.yml  # Local Postgres + app with resource limits
     └── scripts
-        ├── bench.sh        # Runs autocannon and prints docker stats
-        └── reset.sh        # Drops & seeds demo table (optional)
+        └── bench.sh        # Runs autocannon and prints docker stats
 ```
 
 ## Quick start (local machine)
